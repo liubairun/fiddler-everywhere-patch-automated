@@ -102,7 +102,7 @@ jobs:
       scraped_version: ${{ steps.get_version.outputs.scraped_version }}
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
 
       - name: Run the Powershell script
         id: get_version
